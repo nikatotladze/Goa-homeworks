@@ -1,0 +1,78 @@
+<!-- 2) შექმენით 3 სხვადასხვა Drop-Down Menu, 3 სხვადასხვა თემაზე ( თქვენი ფანტაზიით ) -->
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drop-Down მენიუები და მედიაფაილები</title>
+</head>
+<body>
+    <h2>Drop-Down მენიუები</h2>
+
+    <!-- Drop-Down მენიუ: ქვეყნის არჩევანი -->
+    <label for="country">აირჩიეთ ქვეყანა:</label>
+    <select id="country" name="country">
+        <option value="georgia">საქართველო</option>
+        <option value="usa">ამერიკა</option>
+        <option value="france">საფრანგეთი</option>
+        <option value="japan">იაპონია</option>
+    </select><br><br>
+
+    <!-- Drop-Down მენიუ: საყვარელი სპორტი -->
+    <label for="sport">აირჩიეთ საყვარელი სპორტი:</label>
+    <select id="sport" name="sport">
+        <option value="football">ფეხბურთი</option>
+        <option value="basketball">კალათბურთი</option>
+        <option value="tennis">ჩოგბურთი</option>
+        <option value="swimming">ცურვა</option>
+    </select><br><br>
+
+    <!-- Drop-Down მენიუ: სასურველი ტექნოლოგია -->
+    <label for="technology">აირჩიეთ სასურველი ტექნოლოგია:</label>
+    <select id="technology" name="technology">
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+        <option value="javascript">JavaScript</option>
+        <option value="python">Python</option>
+    </select><br><br>
+</body>
+</html>
+
+
+
+<!--3) შემოიტანეთ საიტზე 1 ვიდეო -->
+
+<h2>ვიდეო</h2>
+<video width="320" height="240" controls>
+    <source src="./video/HTML in 100 Seconds.mp4" type="html in 100 sec">
+</video>
+
+
+
+<!--4) შემოიტანეთ საიტზე 1 აუდიო -->
+
+<h2>აუდიო</h2>
+<audio controls>
+    <source src="./audio/HTML in 100 Seconds [TubeRipper.com].m4a" type="html 100 sec audio">
+</audio>
+
+
+
+<!--5) ახსენით ყველა ატრიბუტი რომლებსაც აუდიოებთან და ვიდეოებთან ვიყენებთ -->
+
+<!-- controls: აჩვენებს მართვის პანელს, რომელიც იძლევა პაუზას, დაკვრის, გადახვევის და სხვა ოპციების საშუალებას.
+autoplay: ავტომატურად იწყებს მედიის დაკვრას, როდესაც გვერდი ჩაიტვირთება.
+loop: მედია ავტომატურად გამეორდება, როდესაც დასრულდება.
+muted: აძლევს მედიის დასაწყისში ჩუმი მდგომარეობის საშუალებას.
+width და height: ადგენს ვიდეოს ზომას.
+src: მიუთითებს მედიის მისამართს (გამოიყენება მხოლოდ მაშინ, თუ source ტეგი არ არის).
+type: მიუთითებს მედიის ფორმატს, რაც ბრაუზერს ეხმარება აირჩიოს მხარდაჭერილი ფორმატი (მაგ., video/mp4, audio/mpeg). -->
+
+
+
+<!--6) ახსენით რატომ ვიყენებთ source tag'ს და არა უბრალოდ src ატრიბუტს -->
+
+<!-- source ტეგის გამოყენება საშუალებას გვაძლევს დავამატოთ მედიის რამდენიმე ფორმატი (მაგ. MP4 და OGG),
+ რაც გაზრდის სხვადასხვა ბრაუზერების მხარდაჭერას. ზოგიერთი ბრაუზერი მხარს უჭერს მხოლოდ კონკრეტულ ფორმატებს, 
+ ამიტომ სხვადასხვა source ტეგების გამოყენება აუმჯობესებს ვიდეოსა და აუდიოს თავსებადობას სხვადასხვა მოწყობილობებზე. -->

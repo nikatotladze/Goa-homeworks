@@ -1,0 +1,59 @@
+<!-- 2) შექმენით single page website. თავიდან იყოს home, შემდეგ about და ბოლოში contact. ეს იქნება თქვენი პირველი პორტფოლიო, homeში დაწერეთ ვინ ხართ, 
+გამოიტანეთ თქვენი ფოტო, aboutში დაწერეთ ინფორმაცია თქვენს შესახებ, რა მოგწონთ, რა არ მოგწონთ, რითი ხართ დაკავებული და ა.შ. და contactში გააკეთეთ ასეთი რამ რაც ფოტოზეა მოცემული,
+ formების გამოყენებით. გამოიყენეთ ყველაფერი რაც აქამდე ვისწავლეთ -->
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h2>Home</h2>
+        <p>Hello, my name is nika. i am student of Goa collage, and this is my portfolio.</p>
+        <img src="./photos/462562262_1259213935233169_2043760890693267785_n.jpg" alt="me" style="width:200px;height:200px;">
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>hello my name is nika i am student of goa. i really like programing.and i plan to continue studying.also i am also big fan of basketball.</p>
+        <p>i belive i can archive the high level of proggraming</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">name</label><br>
+            <input type="text" id="name" name="nika"><br><br>
+
+            <label for="lastname">lastname</label><br>
+            <input type="lastname" id="lastname" name="totladze"><br><br>
+
+            <label for="message">message</label><br>
+            <textarea id="message" name="message" rows="5" cols="40"></textarea><br><br>
+
+            <input type="submit" value="Send Message">
+        </form>
+    </section>
+</body>
+</html>
+
+
+
