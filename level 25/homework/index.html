@@ -1,0 +1,85 @@
+<!--3-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Example</title>
+    <style>
+        /* Internal CSS */
+        p {
+            color: green;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <!-- Inline CSS -->
+    <p style="color: red;">This is a paragraph with different CSS levels applied.</p>
+</body>
+</html>
+<!--პარაგრაფის ფერი მიიღებს red-ს, რადგან Inline CSS-ს პრიორიტეტი უფრო მაღალია ვიდრე Internal ან External CSS-ს.
+თუ Inline CSS არ იქნება, ფერი იქნება Internal CSS-ის ფერი (green).
+თუ არც Inline და არც Internal CSS არ იქნება, ფერი იქნება External CSS-ის ფერი (blue).-->
+<!--4-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Background</title>
+    <style>
+        button {
+            background-color: yellow;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    <button>Click Me</button>
+</body>
+</html>
+<!--5-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Resizing</title>
+    <style>
+        img {
+            width: 300px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <img src="./Photos/download.jfif" alt="image">
+</body>
+</html>
+<!--6-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anchor Tag Styling</title>
+    <style>
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+        a:hover {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <a href="https://example.com">Visit Example</a>
+</body>
+</html>

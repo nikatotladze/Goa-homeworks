@@ -1,0 +1,91 @@
+<!--1. შექმენით საიტი სადაც გამოიყენებთ ყველა სტრუქტურის თეგს (header, main, footer, article, section, aside). ყველა თეგში უნდა ჩაწეროთ შესაბამისი ინფორმაცია 
+
+-->
+
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>საქართველო - კულტურა და ისტორია</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        header, footer {
+            background-color: #8B0000;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        article, aside {
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin: 10px;
+        }
+        article {
+            flex: 2;
+            min-width: 200px;
+        }
+        aside {
+            flex: 1;
+            min-width: 150px;
+        }
+        section {
+            margin-top: 20px;
+        }
+        h1, h2 {
+            color: #8B0000;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>საქართველო - კულტურა და ისტორია</h1>
+        <p>გაიგეთ მეტი საქართველოს შესახებ</p>
+    </header>
+
+    <!-- Main content -->
+    <main>
+        <!-- Main Article -->
+        <article>
+            <h2>საქართველოს ისტორია</h2>
+            <p>საქართველო არის უძველესი ქვეყანა, რომელიც გამოირჩევა მდიდარი ისტორიითა და კულტურით. აქედანვე იწყება ვანისა და მცხეთის უძველესი ისტორიული ქალაქები.</p>
+
+            <!-- Section within Article -->
+            <section>
+                <h3>ძველი საქართველო</h3>
+                <p>ძველმა საქართველომ მნიშვნელოვანი როლი ითამაშა ევროპისა და აზიის გზაჯვარედინზე. აქ ვითარდებოდა დიდი კულტურა და ხელოვნება.</p>
+            </section>
+
+            <!-- Another Section within Article -->
+            <section>
+                <h3>საქართველო საბჭოთა პერიოდში</h3>
+                <p>საბჭოთა პერიოდი დიდი ზეგავლენა იქონია ქვეყნის პოლიტიკასა და ეკონომიკაზე. თუმცა, საქართველო მაინც ინარჩუნებდა თავის კულტურულ მემკვიდრეობას.</p>
+            </section>
+        </article>
+
+        <!-- Aside -->
+        <aside>
+            <h2>ინტერესები</h2>
+            <p>საიტზე შეგიძლიათ მოიძიოთ სხვადასხვა ინფორმაცია საქართველოს ტრადიციების, არქიტექტურისა და ბუნების შესახებ.</p>
+            <p>გაიგეთ მეტი: <a href="#link">ვრცლად...</a></p>
+        </aside>
+    </main>
+</body>
+</html>

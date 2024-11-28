@@ -1,0 +1,91 @@
+<!-- 1 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Link with Pseudo Selectors</title>
+  <style>
+    /* Default link style */
+    a {
+      text-decoration: none;
+      font-size: 18px;
+      color: blue;
+    }
+
+    /* Pseudo-selectors */
+    a:link {
+      color: green; 
+    }
+
+    a:visited {
+      color: purple; 
+    }
+
+    a:hover {
+      color: orange;
+      text-decoration: underline;
+    }
+
+    a:active {
+      color: red; 
+    }
+  </style>
+</head>
+<body>
+  <h1>Link Pseudo Selectors Example</h1>
+  <a href="https://blabla.com" target="_blank">Visit Example</a>
+
+
+
+
+<!-- 2 -->
+ 
+ <!-- :link
+გამოიყენება სტილის გასამართად ლინკებისთვის, რომლებიც ჯერ არ არის მონახულებული (unvisited).
+მაგალითად: თუ ლინკი ჯერ არ გაქვთ გახსნილი, ის შეესაბამება ამ სელექტორს.
+
+:visited
+გამოიყენება იმ ლინკებისთვის, რომლებიც უკვე მონახულებულია. ბრაუზერი ინახავს ამ ინფორმაციას და ავტომატურად განსაზღვრავს ამ მდგომარეობას.
+მაგალითად: თუ ლინკზე ერთხელ უკვე გადახვედით, მისი ფერი შეიძლება შეიცვალოს.
+
+:hover
+გამოიყენება, როცა მომხმარებელი მაუსით აპარებს კურსორს ელემენტზე.
+მაგალითად: ლინკის ფერის შეცვლა ან ხაზის გაჩენა.
+
+:active
+გამოიყენება, როცა ლინკი ან სხვა ელემენტი აქტიურ მდგომარეობაშია (ანუ დააჭირეთ და კლიკი ჯერ არ გაუშვიათ).
+მაგალითად: მაუსის დაჭერის მომენტში ფერის შეცვლა. -->
+
+
+<!-- 3 -->
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Button and Hover Style</title>
+  <style>
+    /* Button default style */
+    button {
+      background-color: #4CAF50; /* Green */
+      color: white;
+      font-size: 16px;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    /* Button hover style */
+    button:hover {
+      background-color: #45a049; /* Darker green */
+      color: black; /* Text changes to black */
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    }
+  </style>
+</head>
+<body>
+  <h1>Button Hover Example</h1>
+  <button>Click Me</button>
+</body>
+</html>

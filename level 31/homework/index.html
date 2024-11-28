@@ -1,0 +1,120 @@
+<!-- 2 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Two Links with Pseudo-selectors</title>
+  <style>
+    /* General link styles */
+    a {
+      text-decoration: none;
+      font-size: 20px;
+      margin: 10px;
+    }
+
+    /* Link 1 styles */
+    .link1:link {
+      color: #007BFF; /* Default blue for unvisited */
+    }
+    .link1:visited {
+      color: #6C757D; /* Grey for visited */
+    }
+    .link1:hover {
+      color: #0056B3; /* Darker blue on hover */
+      text-decoration: underline;
+    }
+    .link1:active {
+      color: #FF5733; /* Orange while being clicked */
+    }
+
+    /* Link 2 styles */
+    .link2:link {
+      color: green; /* Default green for unvisited */
+    }
+    .link2:visited {
+      color: darkgreen; /* Darker green for visited */
+    }
+    .link2:hover {
+      color: limegreen; /* Light green on hover */
+    }
+    .link2:active {
+      color: red; /* Red while being clicked */
+    }
+  </style>
+</head>
+<body>
+  <h1>Two Links with Pseudo-selectors</h1>
+  <a href="https://www.google.com" class="link1" target="_blank">Google</a><br>
+  <a href="https://www.wikipedia.org" class="link2" target="_blank">Wikipedia</a>
+</body>
+</html>
+
+
+
+<!-- 3 -->
+
+<!-- Pseudo-selectors are keywords in CSS that define the special state of an element -->
+
+<!-- :link
+Styles unvisited links. Example: A link that hasn't been clicked yet.
+
+:visited
+Styles links that have been clicked. Browsers keep track of this state to show users what they’ve interacted with.
+
+:hover
+Styles the element when the mouse pointer is over it. This is commonly used for interactive effects.
+
+:active
+Styles the element when it is in an active state (clicked but not yet released). -->
+
+
+<!-- 4 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beautiful Button</title>
+  <style>
+    /* Button styles */
+    .custom-button {
+      background-color: #4CAF50; /* Green */
+      color: white;
+      font-size: 18px;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      transition: all 0.3s ease; /* Smooth transition */
+    }
+
+    /* Hover effect */
+    .custom-button:hover {
+      background-color: #45a049; /* Darker green */
+      color: black;
+      box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2); /* Shadow on hover */
+      transform: scale(1.1); /* Slight zoom */
+    }
+
+    /* Active effect */
+    .custom-button:active {
+      background-color: #3e8e41; /* Even darker green */
+      transform: scale(0.95); /* Shrink effect */
+    }
+  </style>
+</head>
+<body>
+  <h1>Custom Button Example</h1>
+  <button class="custom-button">Click Me</button>
+</body>
+</html>
+
+
+
+<!-- 5 -->
+
+<!-- ლინკის ფერის შეცვლა, როდესაც მასზე უკვე გადასულები ვართ უმთავრესად განკუთვნილია მომხმარებლის გამოცდილების გაუმჯობესებისთვის -->
+
