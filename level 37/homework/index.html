@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Summary</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #f0f4ff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      width: 350px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+
+    .top {
+      background: #4a90e2;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .top img {
+      width: 100%;
+      height: auto;
+    }
+
+    .bottom {
+      padding: 20px;
+    }
+
+    .center {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #f9f9f9;
+      border: 1px solid #e0e0e0;
+      border-radius: 8px;
+      padding: 10px 15px;
+      margin: 20px 0;
+    }
+
+    .center img {
+      width: 24px;
+      height: 24px;
+    }
+
+    .center div {
+      flex-grow: 1;
+      margin-left: 10px;
+    }
+
+    .center a {
+      color: #4a90e2;
+      text-decoration: none;
+    }
+
+    .bottom-btns {
+      text-align: center;
+    }
+
+    .bottom-btns button {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .bottom-btns .proceed {
+      background: #4a90e2;
+      color: white;
+    }
+
+    .bottom-btns .cancel {
+      background: #f4f4f4;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="top">
+      <h2>Order Summary</h2>
+      <p>You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
+    </div>
+
+    <div class="bottom">
+      <div class="center">
+        <img src="https://via.placeholder.com/24" alt="Icon">
+        <div>
+          <strong>Annual Plan</strong>
+          <p>$59.99/year</p>
+        </div>
+        <a href="#">Change</a>
+      </div>
+
+      <div class="bottom-btns">
+        <button class="proceed">Proceed to Payment</button>
+        <button class="cancel">Cancel Order</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

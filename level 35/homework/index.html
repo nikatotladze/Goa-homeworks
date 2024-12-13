@@ -1,0 +1,189 @@
+<!--3-->
+
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Positioned Divs</title>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f4ff;
+    position: relative;
+  }
+
+  .corner {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: #4a90e2;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .top-left {
+    top: 0;
+    left: 0;
+  }
+
+  .top-right {
+    top: 0;
+    right: 0;
+  }
+
+  .bottom-left {
+    bottom: 0;
+    left: 0;
+  }
+
+  .bottom-right {
+    bottom: 0;
+    right: 0;
+  }
+</style>
+</head>
+<body>
+<div class="corner top-left">Top Left</div>
+<div class="corner top-right">Top Right</div>
+<div class="corner bottom-left">Bottom Left</div>
+<div class="corner bottom-right">Bottom Right</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+<!--5-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Card</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #f6f1e9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .product-card {
+      display: flex;
+      max-width: 600px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+
+    .product-card img {
+      width: 50%;
+      object-fit: cover;
+    }
+
+    .product-details {
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .product-details h4 {
+      font-size: 14px;
+      color: #999;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+
+    .product-details h1 {
+      font-size: 22px;
+      color: #333;
+      margin-bottom: 15px;
+    }
+
+    .product-details p {
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 20px;
+    }
+
+    .price {
+      font-size: 20px;
+      color: #2d624d;
+      font-weight: bold;
+    }
+
+    .price del {
+      font-size: 14px;
+      color: #999;
+      margin-left: 10px;
+    }
+
+    .add-to-cart {
+      margin-top: 20px;
+    }
+
+    .add-to-cart button {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      background-color: #2d624d;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .add-to-cart button:hover {
+      background-color: #235a3e;
+    }
+  </style>
+</head>
+<body>
+  <div class="product-card">
+    <img src="./photo's/lvl 35 hw.JPG" alt="Product Image">
+    <div class="product-details">
+      <h4>Perfume</h4>
+      <h1>Gabrielle Essence Eau De Parfum</h1>
+      <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
+      <div class="price">
+        $149.99 <del>$169.99</del>
+      </div>
+      <div class="add-to-cart">
+        <button>Add to Cart</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
