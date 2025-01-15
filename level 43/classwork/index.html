@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Design</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #0d1b2a;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #fff;
+        }
+
+        .card {
+            background-color: #1b263b;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+            overflow: hidden;
+            width: 320px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .card h2 {
+            font-size: 1.5em;
+            margin: 20px 0 10px;
+        }
+
+        .card p {
+            color: #a9b2c3;
+            font-size: 0.9em;
+            margin: 0 0 20px;
+        }
+
+        .card .info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        .info span {
+            font-size: 0.9em;
+        }
+
+        .info .price {
+            color: #00d9ff;
+            font-weight: bold;
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 0.8em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .footer img {
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="./photos/image-equilibrium.jpg" alt="Equilibrium image">
+        <h2>Equilibrium #3429</h2>
+        <p>Our Equilibrium collection promotes balance and calm.</p>
+        <div class="info">
+            <span class="price">0.041 ETH</span>
+            <span>3 days left</span>
+        </div>
+        <div class="footer">
+            <img src="./photos/image-avatar.png" alt="Creator profile">
+            <span>Creation of <a href="#" style="color: #00d9ff; text-decoration: none;">Jules Wyvern</a></span>
+        </div>
+    </div>
+</body>
+</html>
