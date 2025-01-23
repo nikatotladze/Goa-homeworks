@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!--1-->
 
 <!--Style Inheritance არის CSS-ის მახასიათებელი, რომლის მიხედვითაც ზოგიერთი სტილი ავტომატურად გადაეცემა შვილ ელემენტებს მათი მშობელი ელემენტებიდან.-->
@@ -80,3 +81,87 @@ Elements (Tag selectors, როგორიცაა div, p). -->
 </body>
 </html>
 
+=======
+<!--1-->
+
+<!--Style Inheritance არის CSS-ის მახასიათებელი, რომლის მიხედვითაც ზოგიერთი სტილი ავტომატურად გადაეცემა შვილ ელემენტებს მათი მშობელი ელემენტებიდან.-->
+
+
+
+<!--2-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style Inheritance</title>
+    <style>
+        p {
+            color: blue;
+        }
+
+        b {
+            color: inherit; /* მემკვიდრეობით მიღებული ფერი */
+        }
+    </style>
+</head>
+<body>
+    <p>This is a <b>bold</b> text inside a paragraph.</p>
+</body>
+</html>
+
+
+
+<!--3-->
+
+<!-- Inline styles (სტილი პირდაპირ HTML-ში style="" ატრიბუტით).
+
+IDs (#id-selector).
+
+Classes (.class-selector), Attributes, და Pseudo-classes.
+
+Elements (Tag selectors, როგორიცაა div, p). -->
+
+
+
+<!--5-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style Inheritance Example</title>
+    <style>
+        div {
+            color: red; /* წითელი ფერი */
+        }
+
+        div p {
+            margin: 0;
+        }
+
+        body > p {
+            color: black; /* სხვა ტექსტისთვის */
+        }
+    </style>
+</head>
+<body>
+    <p>Paragraph 1</p>
+    <p>Paragraph 2</p>
+    <p>Paragraph 3</p>
+
+    <div>
+        <p>Paragraph 4</p>
+        <p>Paragraph 5</p>
+        <p>Paragraph 6</p>
+    </div>
+
+    <p>Paragraph 7</p>
+    <p>Paragraph 8</p>
+    <p>Paragraph 9</p>
+</body>
+</html>
+
+>>>>>>> 078f87372618cabe97856ddd7e397bf9bf3f8892

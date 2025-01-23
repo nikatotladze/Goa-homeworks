@@ -1,3 +1,4 @@
+<<<<<<< HEAD
  /* 2 */
 
 
@@ -24,3 +25,31 @@ section {
 
 
 
+=======
+ /* 2 */
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+
+
+>>>>>>> 078f87372618cabe97856ddd7e397bf9bf3f8892

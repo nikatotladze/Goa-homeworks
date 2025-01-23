@@ -1,0 +1,38 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    animation-name: sizeAndColorChange;
+    animation-duration: 3s;
+    animation-iteration-count: infinite; 
+}
+
+
+@keyframes sizeAndColorChange {
+    0% {
+        background-color: green;
+        width: 100px;
+        height: 100px;
+    }
+    50% {
+        background-color: yellow;
+        width: 150px;
+        height: 150px;
+    }
+    100% {
+        background-color: red;
+        width: 200px;
+        height: 200px;
+    }
+}

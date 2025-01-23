@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -72,3 +73,79 @@ h1 {
     margin-top: 10px;
     line-height: 1.5;
 }
+=======
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    text-align: center;
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #4c007d;
+}
+
+.subtitle {
+    font-size: 1.2em;
+    color: #555;
+    margin: 20px 0;
+}
+
+.ratings {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 30px 0;
+}
+
+.ratings div {
+    background-color: #f3f1fc;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1em;
+    display: inline-block;
+}
+
+.reviews {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.review {
+    background-color: #4c007d;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.name {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.role {
+    font-size: 0.9em;
+    color: #d3b0e0;
+    margin: 5px 0;
+}
+
+.text {
+    font-size: 1em;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+>>>>>>> 078f87372618cabe97856ddd7e397bf9bf3f8892

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* styles.css */
 body {
     font-family: Arial, sans-serif;
@@ -94,4 +95,102 @@ body {
     background: linear-gradient(135deg, #f94f6d, #19033d);
     width: 10px;
   }
+=======
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #2b2b57, #19033d);
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    max-width: 500px;
+  }
+  
+  header h1 {
+    font-size: 1.8rem;
+    color: #f94f6d;
+  }
+  
+  main h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  main h2 span {
+    color: #f94f6d;
+  }
+  
+  main p {
+    font-size: 1rem;
+    margin: 5px 0;
+  }
+  
+  .email-info span {
+    color: #f94f6d;
+    font-weight: bold;
+  }
+  
+  .ticket {
+    background: #321654;
+    border-radius: 15px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .ticket-content {
+    padding: 20px;
+    flex: 1;
+  }
+  
+  .ticket-content h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #f94f6d;
+  }
+  
+  .ticket-content p {
+    margin: 5px 0 20px;
+    color: #cccccc;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .profile-picture {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  }
+  
+  .profile h4 {
+    margin: 0;
+    color: white;
+  }
+  
+  .profile p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #cccccc;
+  }
+  
+  .ticket-border {
+    background: linear-gradient(135deg, #f94f6d, #19033d);
+    width: 10px;
+  }
+>>>>>>> 078f87372618cabe97856ddd7e397bf9bf3f8892
   

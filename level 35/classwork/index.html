@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -138,3 +139,145 @@
     <div class="lemon"></div>
 </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tasks</title>
+    <style>
+        /* 1. სტილის მინიჭება ცხრილისთვის */
+        table {
+            width: 50%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #000;
+            text-align: center;
+            padding: 8px;
+        }
+        tr:nth-child(odd) {
+            background-color: #f2f2f2; /* კენტი სტრიქონები */
+        }
+        tr:first-child {
+            background-color: #4CAF50; /* პირველი სტრიქონი */
+            color: white;
+            font-weight: bold;
+        }
+
+        /* 2. Ordered List სტილი */
+        ol {
+            list-style-position: inside;
+            list-style-type: upper-alpha;
+            margin: 20px;
+        }
+
+        /* 3. Unordered List სტილი */
+        ul {
+            list-style: none;
+            margin: 20px;
+        }
+
+        /* 4. ფორმის input სტილი */
+        input[type="text"] {
+            border: 2px solid blue;
+            margin: 5px;
+        }
+        input[type="email"] {
+            border: 2px solid green;
+            margin: 5px;
+        }
+        input[type="password"] {
+            border: 2px solid red;
+            margin: 5px;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        /* 5. ლიმონის სტილი */
+        .lemon {
+            width: 100px;
+            height: 100px;
+            background-color: #f9e79f;
+            border-radius: 50%;
+            position: relative;
+            margin: 20px auto;
+        }
+        .lemon::before {
+            content: "";
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            width: 70px;
+            height: 70px;
+            background-color: #fff9d9;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <!-- 1. ცხრილი -->
+    <table>
+        <tr>
+            <th>#</th>
+            <th>Name</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>John</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Jane</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Mike</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Lisa</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Tom</td>
+        </tr>
+    </table>
+
+    <!-- 2. Ordered List -->
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+
+    <!-- 3. Unordered List -->
+    <ul>
+        <li>Item A</li>
+        <li>Item B</li>
+        <li>Item C</li>
+    </ul>
+
+    <!-- 4. ფორმა -->
+    <form>
+        <input type="text" placeholder="Enter your name">
+        <input type="email" placeholder="Enter your email">
+        <input type="password" placeholder="Enter your password">
+        <input type="submit" value="Submit">
+    </form>
+
+    <!-- 5. ლიმონი -->
+    <div class="lemon"></div>
+</body>
+</html>
+>>>>>>> 078f87372618cabe97856ddd7e397bf9bf3f8892

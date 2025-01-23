@@ -1,0 +1,92 @@
+<!--1-->
+
+<!--translate: გადაადგილებს ელემენტს X და Y ღერძებზე მითითებული რაოდენობით-->
+
+
+<!--scale: შლის ან აპატარავებს ელემენტს.-->
+
+
+<!--rotate: ატრიალებს ელემენტს მითითებული კუთხით-->
+
+
+
+<!--2-->
+
+<div class="move-right">move right</div>
+
+<style>
+  .move-right {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(140, 0, 255);
+    transition: transform 0.5s;
+  }
+
+  .move-right:hover {
+    transform: translateX(50px);
+  }
+</style>
+
+
+
+<!--3-->
+
+<div class="grow">grow</div>
+
+<style>
+  .grow {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(102, 0, 128);
+    transition: transform 0.5s;
+  }
+
+  .grow:hover {
+    transform: scale(2);
+  }
+</style>
+
+
+
+<!--4-->
+
+<div class="grow-and-shrink">grow-and-shrink</div>
+
+<style>
+  .grow-and-shrink {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(153, 0, 255);
+    transition: transform 0.3s;
+  }
+
+  .grow-and-shrink:hover {
+    transform: scale(1.5);
+  }
+
+  .grow-and-shrink:active {
+    transform: scale(1.2);
+  }
+</style>
+
+
+
+
+<!--5-->
+
+<div class="delayed-transform">delayed</div>
+
+<style>
+  .delayed-transform {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    transition: background-color 1s, transform 5s ease;
+  }
+
+  .delayed-transform:hover {
+    transition-delay: 2s; 
+    background-color: rgb(162, 0, 255); 
+    transform: rotate(180deg); 
+  }
+</style>

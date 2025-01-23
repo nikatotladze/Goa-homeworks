@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 <!-- 1) შექმენით ფორმა რომელშიც გექნებათ: 2 ტექსტური ინფუთი, 1 მეილის ინფუთი, 1 თარიღის ინფუთი, 1 პაროლის ინფუთი, drop-down menu და 1 submit'ის ინფუთი -->
 
@@ -100,3 +101,107 @@
     </form>
 </body>
 </html>
+=======
+
+<!-- 1) შექმენით ფორმა რომელშიც გექნებათ: 2 ტექსტური ინფუთი, 1 მეილის ინფუთი, 1 თარიღის ინფუთი, 1 პაროლის ინფუთი, drop-down menu და 1 submit'ის ინფუთი -->
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ფორმა</title>
+</head>
+<body>
+    <h2>რეგისტრაციის ფორმა</h2>
+    <form action="submit_form.php" method="POST">
+        <!-- ტექსტური ინფუთი -->
+        <label for="firstname">სახელი:</label>
+        <input type="text" id="firstname" name="firstname" required><br><br>
+
+        <label for="lastname">გვარი:</label>
+        <input type="text" id="lastname" name="lastname" required><br><br>
+
+        <!-- მეილის ინფუთი -->
+        <label for="email">მეილი:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <!-- თარიღის ინფუთი -->
+        <label for="birthdate">დაბადების თარიღი:</label>
+        <input type="date" id="birthdate" name="birthdate" required><br><br>
+
+        <!-- პაროლის ინფუთი -->
+        <label for="password">პაროლი:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <!-- Drop-down მენიუ -->
+        <label for="gender">სქესი:</label>
+        <select id="gender" name="gender" required>
+            <option value="male">მამრობითი</option>
+            <option value="female">მდედრობითი</option>
+            <option value="other">სხვა</option>
+        </select><br><br>
+
+        <!-- Submit ღილაკი -->
+        <input type="submit" value="რეგისტრაცია">
+    </form>
+</body>
+</html>
+
+
+
+<!-- 2) წარმოიდგინეთ ხართ facebook'ის developer'ი და შექმენით facebook'ის სარეგისტრაციო ფორმა -->
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook რეგისტრაცია</title>
+</head>
+<body>
+    <h2>Facebook-ის რეგისტრაცია</h2>
+    <form action="submit_facebook.php" method="POST">
+        <!-- სახელი -->
+        <label for="firstname">სახელი:</label>
+        <input type="text" id="firstname" name="firstname" required><br><br>
+
+        <!-- გვარი -->
+        <label for="lastname">გვარი:</label>
+        <input type="text" id="lastname" name="lastname" required><br><br>
+
+        <!-- მეილი ან ტელეფონი -->
+        <label for="email">მეილი ან ტელეფონი:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <!-- პაროლი -->
+        <label for="password">პაროლი:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <!-- დაბადების თარიღი -->
+        <label>დაბადების თარიღი:</label>
+        <select name="birth_day" required>
+            <option value="">დღე</option>
+            <!-- დაამატეთ დღეები 1-31 -->
+        </select>
+        <select name="birth_month" required>
+            <option value="">თვე</option>
+            <!-- დაამატეთ თვეები -->
+        </select>
+        <select name="birth_year" required>
+            <option value="">წელი</option>
+            <!-- დაამატეთ წლები -->
+        </select><br><br>
+
+        <!-- სქესი -->
+        <label>სქესი:</label>
+        <input type="radio" name="gender" value="male" required> მამრობითი
+        <input type="radio" name="gender" value="female" required> მდედრობითი
+        <input type="radio" name="gender" value="other" required> სხვა<br><br>
+
+        <!-- Submit ღილაკი -->
+        <input type="submit" value="რეგისტრაცია">
+    </form>
+</body>
+</html>
+>>>>>>> 078f87372618cabe97856ddd7e397bf9bf3f8892

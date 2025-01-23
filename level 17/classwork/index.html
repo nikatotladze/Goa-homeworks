@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!--1) შექმენით form label'ების გამოყენებით რომელშიც მომხმარებელს შემოატანინებთ, სახელს, მეილს და პაროლს.-->
 
 <form>
@@ -45,3 +46,52 @@
 
     <input type="submit" value="Submit">
 </form>
+=======
+<!--1) შექმენით form label'ების გამოყენებით რომელშიც მომხმარებელს შემოატანინებთ, სახელს, მეილს და პაროლს.-->
+
+<form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name"><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password"><br><br>
+
+    <input type="submit" value="Submit">
+</form>
+
+
+
+
+<!--2) შექმენით form'ი placeholder'ების გამოყენებით რომელშიც მომხმარებელს შემოატანინებთ სახელს, დაბადების წელს, მეილს და პაროლს.-->
+
+<form>
+    <input type="text" placeholder="Name" name="name"><br><br>
+    
+    <input type="text" placeholder="Birth Year" name="birth_year"><br><br>
+
+    <input type="email" placeholder="Email" name="email"><br><br>
+
+    <input type="password" placeholder="Password" name="password"><br><br>
+
+    <input type="submit" value="Submit">
+</form>
+
+
+
+<!--3) შექმენით form'ი რომელიც მომხმარებელს აარჩევინებს კარტით იხდის თუ ქეშით.-->
+
+<form>
+    <label for="payment">Choose payment method:</label><br><br>
+    
+    <input type="radio" id="card" name="payment" value="card">
+    <label for="card">Card</label><br>
+    
+    <input type="radio" id="cash" name="payment" value="cash">
+    <label for="cash">Cash</label><br><br>
+
+    <input type="submit" value="Submit">
+</form>
+>>>>>>> 078f87372618cabe97856ddd7e397bf9bf3f8892
