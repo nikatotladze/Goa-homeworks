@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #ffffff;
+  }
+  
+  .container {
+    display: flex;
+    width: 100%;
+    max-width: 1100px;
+    padding: 40px;
+  }
+  
+  .card {
+    max-width: 300px;
+    margin: 10px 0;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+  }
+  
+  .card.back {
+    transform: rotateY(180deg);
+  }
+  
+  .card-form {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .row {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .column {
+    flex: 1;
+  }
+  
+  .exp-date input {
+    width: 48%;
+    margin-right: 4%;
+  }
+  
+  button {
+    padding: 15px;
+    background-color: #2e003e;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+  }
+  
+  .card-container {
+    position: relative;
+    width: 300px;
+    margin-bottom: 20px;
+  }
+  
+  .card.front {
+    width: 100%;
+    border-radius: 15px;
+    display: block;
+  }
+  
+  .card-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    color: white;
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    pointer-events: none;
+  }
+  
+  .card-number {
+    font-size: 18px;
+    margin-top: 80px;
+    letter-spacing: 2px;
+  }
+  
+  .card-name {
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+  
+  .card-exp {
+    font-size: 14px;
+    align-self: flex-end;
+  }
+  
+  .main-container {
+    display: flex;
+  }
+  
+  body {
+    background-image: url("./images/images/bg-card-front.png");
+    background-size: 900px ;
+    background-position: left;  
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    font-family: 'YourFont', sans-serif;
+    border-radius: 5px;
+    height: 1100px;
+    margin-top: 100;
+    margin-left: 5px;
+  }
+  

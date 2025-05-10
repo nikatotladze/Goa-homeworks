@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Card Input Form</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="card-images">
+      <div class="card-container">
+        <img src="./images/images/bg-card-front.png" alt="Front of card" class="card" />
+        <div class="card-overlay">
+          <div class="card-number">0000 0000 0000 0000</div>
+          <div class="card-name">JANE APPLESEED</div>
+          <div class="card-exp">00/00</div>
+        </div>
+      </div>
+      
+      <img src="./images/images/bg-card-back.png" alt="Back of card" class="card back" />
+    </div>
+
+    <form class="card-form">
+      <label>CARDHOLDER NAME</label>
+      <input type="text" placeholder="e.g. Jane Appleseed" />
+
+      <label>CARD NUMBER</label>
+      <input type="text" placeholder="e.g. 1234 5678 9123 0000" />
+
+      <div class="row">
+        <div class="column">
+          <label>EXP. DATE (MM/YY)</label>
+          <div class="exp-date">
+            <input type="text" placeholder="MM" />
+            <input type="text" placeholder="YY" />
+          </div>
+        </div>
+        
+        <div class="column">
+          <label>CVC</label>
+          <input type="text" placeholder="e.g. 123" />
+        </div>
+      </div>
+
+      <button type="submit">Confirm</button>
+    </form>  
+
+  </div>
+  <div class="main-container">
+    <div class="left-side">
+    </div>
+    <div class="right-side">
+    </div>
+  </div>
+  
+  <script src="./script.js"></script>
+
+</body>
+</html>
