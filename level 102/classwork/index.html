@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mortgage Calculator</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="calculator">
+      <div class="header">
+        <h2>Mortgage Calculator</h2>
+        <span class="clear" onclick="clearForm()">Clear All</span>
+      </div>
+
+      <label>Mortgage Amount</label>
+      <div class="input-group">
+        <span>£</span>
+        <input type="number" id="amount" />
+      </div>
+
+      <div class="row">
+        <div>
+          <label>Mortgage Term</label>
+          <div class="input-group">
+            <input type="number" id="term" />
+            <span>years</span>
+          </div>
+        </div>
+        <div>
+          <label>Interest Rate</label>
+          <div class="input-group">
+            <input type="number" id="rate" />
+            <span>%</span>
+          </div>
+        </div>
+      </div>
+
+      <label>Mortgage Type</label>
+      <div class="radio-group">
+        <label><input type="radio" name="type" value="repayment" checked /> Repayment</label>
+        <label><input type="radio" name="type" value="interest-only" /> Interest Only</label>
+      </div>
+
+      <button onclick="calculateRepayment()">
+        <span ></span> Calculate Repayments
+      </button>
+    </div>
+
+    <div class="results">
+      <img src="./images/Capture.JPG" alt="illustration" /> 
+      <h3>Results shown here</h3>
+      <p id="resultText">Complete the form and click “calculate repayments” to see what your monthly repayments would be.</p>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
+

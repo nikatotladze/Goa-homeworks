@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #e6f5fd;
+}
+
+.container {
+  display: flex;
+  max-width: 900px;
+  margin: 50px auto;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  background: white;
+}
+
+.calculator, .results {
+  flex: 1;
+  padding: 40px;
+}
+
+.calculator {
+  background: #fff;
+}
+
+.results {
+  background: #0f3247;
+  color: white;
+  text-align: center;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.clear {
+  color: #0077b6;
+  cursor: pointer;
+  font-size: 0.9em;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #f0f8ff;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.input-group input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  font-size: 1em;
+  outline: none;
+}
+
+.row {
+  display: flex;
+  gap: 20px;
+}
+
+.radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.radio-group input[type="radio"] {
+  margin-right: 10px;
+}
+
+button {
+  background: #d7df23;
+  color: black;
+  border: none;
+  padding: 15px 24px;
+  border-radius: 30px;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.results img {
+  max-width: 160px;
+  margin: 0 auto 20px;
+}
+
+.results h3 {
+  margin-top: 0;
+}
+
+.results p {
+  color: #cfe9f1;
+}

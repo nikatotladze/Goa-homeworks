@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dessert Menu</title>
+  <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+  <main class="container">
+    <section class="menu">
+      <h1>Desserts</h1>
+      <div class="grid">
+        <!-- Repeat for each dessert -->
+        <div class="item">
+          <img src="./imgs/image-waffle-desktop.jpg" alt="Waffle with Berries">
+          <h3>Waffle with Berries</h3>
+          <p>$6.50</p>
+          <button>Add to Cart</button>
+        </div>
+        <div class="item selected">
+          <img src="./imgs/image-creme-brulee-desktop.jpg" alt="Vanilla Bean Crème Brûlée">
+          <h3>Vanilla Bean Crème Brûlée</h3>
+          <p>$7.00</p>
+          <div class="quantity">4</div>
+        </div>
+        <div class="item">
+          <img src="./imgs/image-macaron-desktop.jpg" alt="Macaron Mix of Five">
+          <h3>Macaron Mix of Five</h3>
+          <p>$8.00</p>
+          <button>Add to Cart</button>
+        </div>
+        <div class="item selected">
+          <img src="./imgs/image-tiramisu-desktop.jpg" alt="Classic Tiramisu">
+          <h3>Classic Tiramisu</h3>
+          <p>$5.50</p>
+          <div class="quantity">1</div>
+        </div>
+        <div class="item">
+          <img src="./imgs/image-baklava-desktop.jpg" alt="Pistachio Baklava">
+          <h3>Pistachio Baklava</h3>
+          <p>$4.00</p>
+          <button>Add to Cart</button>
+        </div>
+        <div class="item">
+          <img src="./imgs/image-meringue-desktop.jpg" alt="Lemon Meringue Pie">
+          <h3>Lemon Meringue Pie</h3>
+          <p>$5.00</p>
+          <button>Add to Cart</button>
+        </div>
+        <div class="item">
+          <img src="./imgs/image-cake-desktop.jpg" alt="Red Velvet Cake">
+          <h3>Red Velvet Cake</h3>
+          <p>$4.50</p>
+          <button>Add to Cart</button>
+        </div>
+        <div class="item">
+          <img src="./imgs/image-brownie-desktop.jpg" alt="Salted Caramel Brownie">
+          <h3>Salted Caramel Brownie</h3>
+          <p>$5.50</p>
+          <button>Add to Cart</button>
+        </div>
+        <div class="item selected">
+          <img src="./imgs/image-panna-cotta-desktop.jpg" alt="Vanilla Panna Cotta">
+          <h3>Vanilla Panna Cotta</h3>
+          <p>$6.50</p>
+          <div class="quantity">2</div>
+        </div>
+      </div>
+    </section>
+
+    <aside class="cart">
+      <h2>Your Cart (7)</h2>
+      <ul>
+        <li>Classic Tiramisu<br>1× $5.50 = $5.50</li>
+        <li>Vanilla Bean Crème Brûlée<br>4× $7.00 = $28.00</li>
+        <li>Vanilla Panna Cotta<br>2× $6.50 = $13.00</li>
+      </ul>
+      <div class="total">
+        <strong>Order Total:</strong> $46.50
+      </div>
+      <p class="note">This is a carbon-neutral delivery</p>
+      <button class="confirm">Confirm Order</button>
+    </aside>
+  </main>
+</body>
+</html>
